@@ -1,0 +1,21 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js localhost 8080"
+  },
+  "dependencies": {
+    "fastify": "3.21.1",
+    "fastify-funky": "1.0.2",
+    "fastify-static": "4.2.3",
+    "formidable": "1.2.2",
+    "ipfs": "0.58.4",
+    "orbit-db": "0.26.1"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
